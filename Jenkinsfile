@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ""
   }
 
-  agent {Jetson-nano}
+  agent {jetson}
 
   stages {
 
