@@ -5,13 +5,13 @@ pipeline {
     dockerImage = ""
   }
 
-  agent any
+  agent Jetson-nano
 
   stages {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/shazforiot/nodeapp_test.git'
+        git 'https://github.com/IamAdite/k8sJenkinsTest.git'
       }
     }
 
