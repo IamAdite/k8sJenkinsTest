@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: iamadite/nodeTest:latest
+        image: iamadite/nodetest:latest
         ports:
         - containerPort: 3000
         

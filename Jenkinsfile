@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "iamadite/nodeTest"
+    dockerimagename = "iamadite/nodetest"
     dockerImage = ""
   }
 
