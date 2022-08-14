@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ""
   }
 
-  agent any
+  agent {label 'jetson'}
 
   stages {
 
